@@ -5,4 +5,9 @@ public class Service {
     public static Service getInstance() {
         return instance;
     }
+
+    public boolean login() {
+        System.out.println("Login Success");
+        return true;
+    }
 }
