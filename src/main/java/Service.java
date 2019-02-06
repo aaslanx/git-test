@@ -10,4 +10,8 @@ public class Service {
         System.out.println("Login Success");
         return true;
     }
+
+    public void logout() {
+        System.out.println("Logout Success");
+    }
 }
