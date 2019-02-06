@@ -5,4 +5,8 @@ public class Service {
     public static Service getInstance() {
         return instance;
     }
+
+    public void logout() {
+        System.out.println("Logout Success");
+    }
 }
